@@ -5,6 +5,6 @@ class Anagram
     @word = word
   end
   def match(words)
-   words.chars.permutate
+    @words.chars.permutate
   end
 end
