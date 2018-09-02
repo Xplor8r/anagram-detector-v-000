@@ -6,10 +6,8 @@ class Anagram
   end
   def match(words)
     words.each do |w|
-      w.chars.sort.join
-    
+      w.chars.sort.join 
     end
-    words
   end
   
 end
