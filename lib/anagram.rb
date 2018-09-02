@@ -8,7 +8,7 @@ class Anagram
     words.each do |w|
       w[0].split('').sort
     end
-      
+    word
   end
   
 end
