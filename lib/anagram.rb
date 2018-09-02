@@ -8,5 +8,6 @@ class Anagram
     words.each do |w|
      w.split('')
     end
+    words
   end
 end
