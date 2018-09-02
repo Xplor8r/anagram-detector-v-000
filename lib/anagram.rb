@@ -6,7 +6,7 @@ class Anagram
   end
   def match(words)
     words.each do |w|
-      w.split('') == word.chars.permutation.map(&:join).split('')
-   end
+     w.split('')
+    end
   end
 end
