@@ -5,6 +5,10 @@ class Anagram
     @word = word
   end
   def match(words)
-    words.select {|w| w.split('').sort == @word.split('').sort}
+    anagram = []
+    words.each do |w| 
+      if w.split('').sort == word.split('').sort
+        anagram << w
+    end
   end
 end
