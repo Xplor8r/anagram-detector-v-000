@@ -5,7 +5,10 @@ class Anagram
     @word = word
   end
   def match(words)
-    words.sort
+    words.each do |w|
+      w.sort
+    end
+      
   end
   
 end
