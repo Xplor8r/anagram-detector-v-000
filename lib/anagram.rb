@@ -5,8 +5,8 @@ class Anagram
     @word = word
   end
   def match(words)
-    @word.chars.sort(&:casecmp).join == 
-  
+    @word.chars.to_a.permutation.map(&:join).uniq.each do |anagram|
+      puts anagram
+    end
   end
-  
 end
