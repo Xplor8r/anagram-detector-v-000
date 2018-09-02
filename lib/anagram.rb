@@ -6,9 +6,9 @@ class Anagram
   end
   def match(words)
     words.each do |w|
-      w[0].split('').sort
+      w[0].split('').sort == word.split('').sort
     end
-    word
+    
   end
   
 end
