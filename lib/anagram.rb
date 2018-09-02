@@ -7,7 +7,7 @@ class Anagram
   def match(words)
     words.each do |w|
       w.chars.sort.join
-      end
+    
     end
   end
   
