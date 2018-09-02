@@ -6,7 +6,7 @@ class Anagram
   end
   def match(words)
     words.each do |w|
-      w.split('').sort
+      w[0].split('').sort
     end
       
   end
