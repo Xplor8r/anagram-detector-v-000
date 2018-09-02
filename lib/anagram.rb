@@ -6,6 +6,6 @@ class Anagram
   end
   def match(words)
     word_list = words.split(' ')
-  
+    word_list
   end
 end
