@@ -9,6 +9,7 @@ class Anagram
       w.chars.sort.join
     
     end
+    words
   end
   
 end
