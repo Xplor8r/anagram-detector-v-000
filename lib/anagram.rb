@@ -6,8 +6,7 @@ class Anagram
   end
   def match(words)
     words.each do |w|
-      if w == @word.chars.to_a.permutation.map(&:join).uniq
-      end
-    end
+     w = word.chars.to_a.permutation.map(&:join).uniq
+   end
   end
 end
